@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SerialPort.cs">
+    <Compile Include="SerialConn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SerialPort.Designer.cs">
-      <DependentUpon>SerialPort.cs</DependentUpon>
+    <Compile Include="SerialConn.Designer.cs">
+      <DependentUpon>SerialConn.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,6 +63,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SerialConn.resx">
+      <DependentUpon>SerialConn.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
